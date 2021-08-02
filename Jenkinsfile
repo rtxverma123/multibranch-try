@@ -12,7 +12,6 @@ node {
     
   }
 }
-//   stage('Push Docker'){
-//     checkout scm
-//     docker.withRegistry('https://registry.hub.docker.com','Docker'){
+}
+
       
