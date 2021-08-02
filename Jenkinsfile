@@ -1,4 +1,4 @@
-ode{
+node{
     stage('Build'){
         checkout([$class: 'GitSCM',
             branches: [[name: "Dockerise"]],
