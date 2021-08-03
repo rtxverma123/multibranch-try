@@ -6,6 +6,7 @@ node{
                 url: 'https://github.com/rtxverma123/multibranch-try.git']]
         ])
         def mycustomImage = docker.build("rtxverma123mymultiflask:my-latest")
+             mycustomImage.push()
 
 
     }
